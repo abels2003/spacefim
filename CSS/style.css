@@ -1,0 +1,67 @@
+.carousel-item {
+    height: 550px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.about {
+    text-decoration: none;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.carousel-indicators button {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.im{
+    height: 250px;
+    padding: 10px;
+}
+
+.first.logoex {
+    width: 100px;
+    height: 100px;
+    padding: auto;
+}
+.foots{
+    background-color: black;
+}
+.leftf{
+    list-style: none;
+    padding: 100px;
+}
+.carousel-caption.overl{
+    padding: 90px;
+}
+.ims{
+    width: 300px;
+    height: 300px;
+}
+.imsm{
+    width: 500px;
+    height: 300px;
+    padding-left: 100px;
+    padding-right: 0px;
+}
+.fea{
+    text-align: center;
+    padding: 50px;
+}
+section{
+    padding-bottom: 40px;
+}
+.f-logo{
+    display: flex;
+    gap: 10px;
+    padding-top: 150px;
+}
+.cops{
+    padding-left: 500px;
+}
