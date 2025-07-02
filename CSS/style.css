@@ -23,7 +23,7 @@
 .im{
     height: 250px;
     padding: 10px;
-}
+}  
 
 .first.logoex {
     width: 100px;
@@ -31,7 +31,8 @@
     padding: auto;
 }
 .foots{
-    background-color: black;
+    background-color: rgb(37, 37, 37);
+    padding: 50px;
 }
 .leftf{
     list-style: none;
@@ -63,5 +64,24 @@ section{
     padding-top: 150px;
 }
 .cops{
-    padding-left: 500px;
+    text-align: center;
+}
+.ico{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: rgb(214, 214, 214);
+    font-size: 40px;
+}
+.rounded-circle{
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+ul{
+    list-style: none;
+}
+.cardi:hover{
+    background-color: hsla(0, 0%, 0%, 0.35);
+    color: rgb(255, 255, 255);
 }
