@@ -1,3 +1,10 @@
+.imss{
+    width: 500px;
+    height: 500px;
+}
+.navbar{
+    background-color:rgba(0, 0, 0, 0.5) ;
+}
 .carousel-item {
     height: 550px;
 }
@@ -34,6 +41,11 @@
     background-color: rgb(37, 37, 37);
     padding: 50px;
 }
+.container .card{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch; /* Makes cards in the row equal height */
+}
 .leftf{
     list-style: none;
     padding: 100px;
@@ -41,19 +53,9 @@
 .carousel-caption.overl{
     padding: 90px;
 }
-.ims{
-    width: 300px;
-    height: 300px;
-}
-.imsm{
-    width: 500px;
-    height: 300px;
-    padding-left: 100px;
-    padding-right: 0px;
-}
 .fea{
     text-align: center;
-    padding: 50px;
+    padding: 20px;
 }
 section{
     padding-bottom: 40px;
@@ -62,6 +64,7 @@ section{
     display: flex;
     gap: 10px;
     padding-top: 150px;
+    position: inherit;
 }
 .cops{
     text-align: center;
@@ -84,4 +87,7 @@ ul{
 .cardi:hover{
     background-color: hsla(0, 0%, 0%, 0.35);
     color: rgb(255, 255, 255);
+}
+.navlink{
+    justify-content: end;
 }
